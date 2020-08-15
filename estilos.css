@@ -1,0 +1,58 @@
+body{background-color: rgb(255, 0, 85);}
+/* barra de navegacion */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    background: black;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+li a:hover{
+    background-color: violet;
+}
+li:last-child{
+    border-right: none;
+}
+h1{
+    text-align: center;
+}
+.centrado{
+    text-align: center;
+}
+.footer-container{
+    background-color: pink;
+    padding: 60px 0;
+    margin-top: 30px;
+}
+body{
+    font-family: cursive;
+}
+/* Tabla de pedidos */
+table{
+    border-collapse: collapse;
+    }
+    td{
+        border: 1px solid palevioletred;
+    }
+    th{
+        background: plum;
+        color: purple;
+    }
+    td,th{
+        text-align: center;
+        padding: 0,5em;
+    }
+    video{
+        width: 500px;
+        }
