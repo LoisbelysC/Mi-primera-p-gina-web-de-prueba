@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serás parte de ésta gran comunidad">
+    <meta name="robots" content="Registro,follow">
+    <link rel="shortcut icon" href="favicon/heart-favicon-red-clip-art-big-heart-image.jpg" type="image/x-icon">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Crear cuenta</h1>
+    <!-- ésta es la manera de crear un formulario -->
+    <form action="">
+        <label for="name">
+            <span>Nombres:</span>
+            <input type="text" id="name" required>
+        </label>
+        <label for="surname">
+            <span>Apellidos:</span>
+            <input type="text" id="surname" required>
+        </label>
+        <label for="age">
+            <span>¿Cuál es tu edad?</span>
+            <input type="date" id="age">
+            </label>
+        <label for="email">
+            <span>Correo:</span>
+            <input type="email" id="email" placeholder="ejemplo@gmail.com">
+        </label>
+        <label for="phone">
+            <span>Teléfono:</span>
+            <input type="tel" id="phone" placeholder="+54 2994576">
+        </label>
+        <label for="user">
+            <span>Usuario:</span>
+            <input type="text" id="user" required>
+        </label>
+        <label for="password">
+            <span>Clave:</span>
+            <input type="password" id="password" pattern="[A-Z]{3} [0-9]{3}" required>
+            <span>(Debe contener 4 letras y 3 números)</span>
+        </label>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
