@@ -10,38 +10,66 @@
 </head>
 <body>
     <h1>Crear cuenta</h1>
-    <!-- ésta es la manera de crear un formulario -->
+    ésta es la manera de crear un formulario -->
     <form action="">
         <label for="name">
             <span>Nombres:</span>
-            <input type="text" id="name" required>
+            <input type="text" 
+            id="name" 
+            required 
+            name="name"
+            >
         </label>
         <label for="surname">
             <span>Apellidos:</span>
-            <input type="text" id="surname" required>
+            <input type="text" 
+            id="surname" 
+            required 
+            name="surname"
+            >
         </label>
         <label for="age">
             <span>¿Cuál es tu edad?</span>
-            <input type="date" id="age">
+            <input type="date" 
+            id="age" 
+            name="age"
+            >
             </label>
         <label for="email">
             <span>Correo:</span>
-            <input type="email" id="email" placeholder="ejemplo@gmail.com">
+            <input type="email" 
+            id="email" 
+            placeholder="ejemplo@gmail.com" 
+            name="email"
+            >
         </label>
         <label for="phone">
             <span>Teléfono:</span>
-            <input type="tel" id="phone" placeholder="+54 2994576">
+            <input type="tel" 
+            id="phone" 
+            placeholder="+54 2994576" 
+            name="phone"
+            >
         </label>
         <label for="user">
             <span>Usuario:</span>
-            <input type="text" id="user" required>
+            <input type="text" 
+            id="user" 
+            required 
+            name="user"
+            >
         </label>
         <label for="password">
             <span>Clave:</span>
-            <input type="password" id="password" pattern="[A-Z]{3} [0-9]{3}" required>
+            <input type="password" 
+            id="password" 
+            pattern="[a-z]{4}[0-9]{3}" 
+            required 
+            name="password"
+            >
             <span>(Debe contener 4 letras y 3 números)</span>
         </label>
-        <button type="submit">Enviar</button>
+        <input type="submit">
     </form>
 </body>
 </html>
